@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include "stdarg.h"
 /**
  * get_func - identifiers correct print function using specifier character
  * @spec: specifier character
