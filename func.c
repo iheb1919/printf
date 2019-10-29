@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <unistd.h>
 
 /**
  * print_char - prints argument of type char
