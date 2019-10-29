@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 #include <stdarg.h>
 /**
  * _printf - Prints a formatted string, similar to printf.
@@ -42,5 +43,5 @@ int _printf(const char *format, ...)
 		}
 	} /*end test string*/
 	va_end(args);
-	return (count);
+	return (count - 1);
 }
