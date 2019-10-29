@@ -69,10 +69,10 @@ int print_decimal(va_list args)
 int len = 0;
 int digit, printt, last;
 int divv = 1000000000;
-int num = va_arg(args, int);
+int num ;
 unsigned int x;
 
-num = 12345;
+num =  = va_arg(args, int);
 printt = 0;
 if (num < 0)
 {
@@ -119,10 +119,10 @@ int print_integer(va_list args)
 int len = 0;
 int digit, printt, last;
 int divv = 1000000000;
-int num = va_arg(args, int);
+int num;
 unsigned int x;
 
-num = 1234;
+num = va_arg(args, int);
 printt = 0;
 if (num < 0)
 {
