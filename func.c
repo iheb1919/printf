@@ -72,7 +72,7 @@ int divv = 1000000000;
 int num ;
 unsigned int x;
 
-num =  = va_arg(args, int);
+num = va_arg(args, int);
 printt = 0;
 if (num < 0)
 {
