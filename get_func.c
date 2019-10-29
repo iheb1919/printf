@@ -13,6 +13,8 @@ int (*get_func(char spec))(va_list)
 		{"c", print_char},
 		{"%", print_percent},
 		{"s", print_string},
+		{"d", print_integer},
+		{"i", print_decimal},
 		{NULL, NULL}
 	};
 
