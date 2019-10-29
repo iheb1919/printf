@@ -43,5 +43,5 @@ int _printf(const char *format, ...)
 		}
 	} /*end test string*/
 	va_end(args);
-	return (count - 1);
+	return (count);
 }
