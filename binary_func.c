@@ -1,4 +1,6 @@
 #include "holberton.h"
+#include <stdarg.h>
+#include <stdio.h>
 /**
  * to_binary - change number to binary
  * @args: argument to change.
