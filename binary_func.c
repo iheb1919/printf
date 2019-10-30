@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * to_binary - change number to binary
  * @args: argument to change.
@@ -8,14 +7,9 @@
 int to_binary(va_list args)
 {
 unsigned int n;
-int  i, j, p = 0, x = 1;
-n = = va_arg(va, int)
-while ((n / x) != 0)
-{
-x *= 10;
-p++;
-}
-int arr[p];
+ int  i, j, c;
+int arr[1000];
+n = va_arg(args, int);
 c = n;
 i = 0;
 if (c == 0)
@@ -32,3 +26,4 @@ i++;
 for (j = i - 1; j >= 0; j--)
 _putchar(arr[j] + '0');
 return (i);
+}
