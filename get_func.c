@@ -15,6 +15,7 @@ int (*get_func(char spec))(va_list)
 		{"s", print_string},
 		{"d", print_integer},
 		{"i", print_decimal},
+		{"b", to_binary},
 		{NULL, NULL}
 	};
 
