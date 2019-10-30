@@ -1,0 +1,44 @@
+\" Manpage for _printf
+.\" Contac bigaziz@outlook.com to correct errors or typos.
+.TH man 3 "29 10 2019" "1.0" "_printf man page"
+.SH NAME
+_printf \- format and print data
+.SH SYNOPSIS
+.B _printf
+FORMAT [ARGUMENT]...
+.B _printf
+OPTION
+
+.B #include 'holberton.h'
+(or any other custom made header file)
+.SH DESCRIPTION
+Print ARGUMENTS(s) according to FORMAT.
+FORMAT controls the output as in C _printf
+
+return value
+      Upon successful return, these functions return the number of characters p-
+      rinted (excluding the null byte  used to end output to strings).
+
+the conversion specifier
+      A character that specifies the type of conversion to be applied.  The con-
+      version specifiers and their meanings are:
+
+      c       for a one character char type.
+
+      s       for multi character char type.
+
+      d, i    The  int  argument  is  converted to signed decimal notation.  The
+              precision, if any, gives the minimum number of digits that must a-
+              ppear; if the converted value requires fewer digits, it is  padded
+              on the left with zeros.  The default precision is 1.  When 0 is p-
+              rinted with an explicit precision 0, the output is empty.
+
+      %       A '%' is written.  No argument is converted.  The complete conver-
+              sion specification is '%%'.
+
+.SH BUGS
+We tried many main excecutions but we couldn't the tiny error in the function.
+We're doing our best to find it.
+
+.SH AUTHOR
+Aziz Ayed (bigaziz@outlook.com) / Iheb Mejri (ihebmejri14@gmail.com)
